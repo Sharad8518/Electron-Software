@@ -1,0 +1,26 @@
+body{
+
+    background:#ffb8b8 ;
+}
+
+.imgBox{
+
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+
+@keyframes example {
+    0% {
+     
+        src: url("G:\react-software\Electron-Software\src\component\image/imgrone.png");
+      
+
+    }
+    100% {
+        src: url("G:\react-software\Electron-Software\src\component\image/imgsec.png");
+
+
+
+    }
+  }

@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import {Container,Row,Col} from "react-bootstrap"
+import Home from './component/Home';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Hello world</h1>
+    <div>
+    <Home/>
+
     </div>
   );
 }
