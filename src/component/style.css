@@ -1,6 +1,12 @@
-body{
+.box{
 
     background:#ffb8b8 ;
+
+   
+    position: absolute;
+  
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 0 15%);
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0 15%);
 }
 
 .imgBox{
@@ -9,6 +15,29 @@ body{
     animation-duration: 4s;
 
 }
+@media only screen and (max-width: 600px) {
+    .box{
+
+        background:#ffb8b8 ;
+       
+        margin-top: -100px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    }
+
+
+@media only screen and (max-width: 600px) {
+    .box{
+
+        background:#ffb8b8 ;
+        
+        margin-top: -100px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    }
+
 
 @keyframes example {
     0% {
