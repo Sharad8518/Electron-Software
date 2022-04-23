@@ -1,18 +1,19 @@
 import React from 'react'
 import imgone from './image/imgrone.png'
-import imgsecond from './image/imgsec.png'
-import "./style.css"
+import imgsecond from './image/boat2.png'
+import "./componentcss/style.css"
 import {Image}from 'react-bootstrap'
 import {Container,Row,Col,Button} from "react-bootstrap"
+import Topmenu from './Topmenu'
 
 function Home() {
   return (
     <div className='box'>
-
+      <Topmenu/>
      <Container>
        <Row>
          <Col md={6}>
-          <h1  style={{marginTop:"100px",fontWeight:"900", color:"#fff"}}>Beats Studio3</h1>
+          <h1  style={{marginTop:"100px",fontWeight:"900", color:"#fff"}}>Boat Power Of Sound</h1>
           <h4 style={{color:"#fff"}}>Stylish OverEar Headphones</h4>
     
           <p style={{color:"#fff"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
@@ -28,7 +29,12 @@ function Home() {
          <Col md={6}>
          <Image className="img-fluid" alt="Responsive image" src={imgsecond}/>
          </Col>
+
        </Row>
+     
+
+
+
      </Container>
 
     </div>

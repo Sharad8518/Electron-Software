@@ -2,15 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
 .box{
-     background: #3e4602;
+     background: #3f460f;
      height: 100vh;
     clip-path: circle(180vh at 50% -80vh);
 
 }
 
-.box h2{
-    
-    
-   
-   
-}

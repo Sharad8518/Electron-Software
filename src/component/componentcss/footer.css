@@ -1,0 +1,14 @@
+.boxFooter{
+        background: #3f460f;
+        height: 100vh;
+       clip-path: circle(180vh at 50% 180vh);
+   
+}
+@media only screen and (max-width: 600px) {
+    .boxFooter{
+        background: #3f460f;
+        height: 180vh;
+       clip-path: circle(180vh at 50% 180vh);
+   
+}
+  }
