@@ -4,6 +4,18 @@
        clip-path: circle(180vh at 50% 180vh);
    
 }
+.waved{
+  position: absolute;
+  margin-bottom: 0; 
+  margin-left: 0;
+  width: 100%;
+  height: 100px;
+ 
+  
+
+
+}
+
 @media only screen and (max-width: 600px) {
     .boxFooter{
         background: #3f460f;
@@ -12,3 +24,4 @@
    
 }
   }
+

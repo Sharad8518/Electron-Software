@@ -1,6 +1,7 @@
 import React from 'react'
 import "./componentcss/footer.css"
 import boat from "./image/boat2.png"
+
 import { FaBluetooth,FaCog, FaBatteryHalf,FaItunesNote} from "react-icons/fa";
 import {Container,Row,Col,Image} from "react-bootstrap"
 
@@ -37,6 +38,12 @@ function Footer() {
     </Col>
     </Row>
    </Container>
+    <div  className='waved waved1'>
+      
+    </div>
+    <div  className='waved waved2'></div>
+    <div  className='waved  waved3'></div>
+    <div className='waved waved4'></div>
     </div>
   )
 }
