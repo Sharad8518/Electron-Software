@@ -1,8 +1,13 @@
-import React from 'react'
+import React ,{useEffect}from 'react'
 import {Container, Image,Row,Col} from"react-bootstrap"
 import "./componentcss/About.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {FaFacebookF,FaInstagram,FaLinkedinIn,FaGithub } from "react-icons/fa";
 function About() {
+  useEffect(()=>{
+    AOS.init({duration:2000})
+},[])
   return (
     <div>
    <Container style={{marginTop:"50px"}}>
@@ -10,7 +15,7 @@ function About() {
 <Row>
   <Col md={12}>
   <div className='mx-auto d-block'>
-    <h3 style={{textAlign:"center" ,fontFamily:"DM sans",fontWeight:"600",fontSize:"35px"}}>SPECIFICATIONS</h3>
+    <h3 data-aos="fade-up" style={{textAlign:"center" ,fontFamily:"DM sans",fontWeight:"600",fontSize:"35px"}}>SPECIFICATIONS</h3>
      <p style={{textAlign:"center"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 
   </div>
@@ -22,7 +27,7 @@ function About() {
 
      <Row>
        <Col md={4}>
-       <div className='card  mx-auto d-block'>
+       <div className='card  mx-auto d-block'data-aos="flip-left" >
   <div className='header'>
   <Image src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style={{
 position: "absolute",
@@ -62,7 +67,7 @@ borderRadius:"50%"
 
        </Col>
        <Col md={4}>
-       <div className='card  mx-auto d-block'>
+       <div className='card  mx-auto d-block' data-aos="flip-left" >
   <div className='header'>
   <Image src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style={{
 position: "absolute",
@@ -105,7 +110,7 @@ borderRadius:"50%"
 
        </Col>
        <Col md={4}  >
-       <div className='card mx-auto d-block'   >
+       <div className='card mx-auto d-block' data-aos="flip-left"  >
   <div className='header'>
   <Image src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style={{
 position: "absolute",
