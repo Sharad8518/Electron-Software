@@ -1,7 +1,7 @@
 import React from 'react'
 import "./componentcss/footer.css"
 import boat from "./image/boat2.png"
-
+import Wave from 'react-wavify'
 import { FaBluetooth,FaCog, FaBatteryHalf,FaItunesNote} from "react-icons/fa";
 import {Container,Row,Col,Image} from "react-bootstrap"
 
@@ -38,12 +38,21 @@ function Footer() {
     </Col>
     </Row>
    </Container>
-    <div  className='waved waved1'>
-      
-    </div>
-    <div  className='waved waved2'></div>
-    <div  className='waved  waved3'></div>
-    <div className='waved waved4'></div>
+   
+   
+    <Wave mask="url(#mask)" fill="#353535" style={{position:"absolute",marginBottom:"0px"}} >
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(150)">
+      <stop offset="0" stopColor="white" />
+      <stop offset="0.5" stopColor="black" />
+    </linearGradient>
+    <mask id="mask">
+      <rect x="0" y="0" width="2000" height="200" fill="url(#gradient)"  />
+    </mask>
+  </defs>
+</Wave> 
+    
+
     </div>
   )
 }
