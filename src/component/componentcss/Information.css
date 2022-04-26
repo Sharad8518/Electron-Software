@@ -1,0 +1,40 @@
+.boxIn{
+background:#3f460f ;
+height: 100vh;
+width: 470px;
+margin-right: 10px;
+
+clip-path: polygon(100% 0, 100% 79%, 0 100%, 0 22%);
+
+}
+.boxInsd{
+    background:#3f460f ;
+    height: 100vh;
+   
+     margin-left: 10px;
+    
+    clip-path: polygon(100% 18%, 100% 100%, 0 79%, 0 0);
+    
+    }
+    @media only screen and (max-width: 810px) {
+        
+        .boxIn{
+            background:#3f460f ;
+            height: 100vh;
+            width: 400px;
+            margin-right: 0px;
+            clip-path: polygon(100% 0, 100% 79%, 0 100%, 0 22%);
+            
+            }
+            .boxInsd{
+                background:#3f460f ;
+                height: 100vh;
+                width: 400px;
+                margin-left: 0px;
+                clip-path: polygon(100% 18%, 100% 100%, 0 79%, 0 0);
+                
+                }
+
+
+
+      }

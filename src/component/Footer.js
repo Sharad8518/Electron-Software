@@ -38,7 +38,7 @@ function Footer() {
     </div>
     <div  data-aos="fade-left" >
        <FaItunesNote  class=" mx-auto d-block"  style={{width:"50px",height:"50px",color:"#fff"}} />
-    <p class=" mx-auto d-block" style={{textAlign:"center",fontSize:"13px",color:"#fff"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+    <p className=" mx-auto d-block" style={{textAlign:"center",fontSize:"13px",color:"#fff"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
     </div>
 
     </Col>
@@ -49,16 +49,16 @@ function Footer() {
     <Row>
       <Col>
       <div className='icons' style={{marginTop:"-100px"}}>
-  <div className='fa'>
+  <div className='fat' data-aos="fade-up"   >
 <FaFacebookF  style={{color:"#fff"}} className="iconf" />
 </div>
-<div  className='fa'>
+<div  className='fat' data-aos="fade-up"   >   
 <FaInstagram style={{color:"#fff"}} className="iconf"  />
 </div>
-<div className='fa'>
+<div className='fat' data-aos="fade-up"    >
 <FaLinkedinIn style={{color:"#fff"}} className="iconf"  />
 </div>
-<div className='fa'>
+<div className='fat' data-aos="fade-up"  >
 <FaGithub style={{color:"#fff"}} className="iconf"/>
 </div></div>
       </Col>
@@ -73,7 +73,7 @@ function Footer() {
     <Wave mask="url(#mask)" fill="#353535" style={{position:"absolute",marginBottom:"0px"}} >
   <defs>
    
-    <linearGradient id="gradient" gradientTransform="rotate(150)">
+    <linearGradient id="gradient" gradientTransform="rotate(200)">
       <stop offset="0" stopColor="white" />
       <stop offset="0.5" stopColor="black" />
     

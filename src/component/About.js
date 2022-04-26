@@ -10,7 +10,7 @@ function About() {
 },[])
   return (
     <div>
-   <Container style={{marginTop:"50px"}}>
+   <Container style={{marginTop:"50px"}} fluid>
 
 <Row>
   <Col md={12}>
@@ -48,16 +48,16 @@ borderRadius:"50%"
   <div className='wave'></div>
 
 <div className='icons'>
-  <div className='fa'>
+  <div className='fat'>
 <FaFacebookF  style={{color:"#fff"}} className="iconf" />
 </div>
-<div  className='fa'>
+<div  className='fat'>
 <FaInstagram style={{color:"#fff"}} className="iconf"  />
 </div>
-<div className='fa'>
+<div className='fat'>
 <FaLinkedinIn style={{color:"#fff"}} className="iconf"  />
 </div>
-<div className='fa'>
+<div className='fat'>
 <FaGithub style={{color:"#fff"}} className="iconf"/>
 </div>
 </div>
@@ -88,16 +88,16 @@ borderRadius:"50%"
   <div className='wave'></div>
 
 <div className='icons'>
-  <div className='fa'>
+  <div className='fat'>
 <FaFacebookF  style={{color:"#fff"}} className="iconf" />
 </div>
-<div  className='fa'>
+<div  className='fat'>
 <FaInstagram style={{color:"#fff"}} className="iconf"  />
 </div>
-<div className='fa'>
+<div className='fat'>
 <FaLinkedinIn style={{color:"#fff"}} className="iconf"  />
 </div>
-<div className='fa'>
+<div className='fat'>
 <FaGithub style={{color:"#fff"}} className="iconf"/>
 </div>
 </div>
@@ -131,16 +131,16 @@ borderRadius:"50%"
   <div className='wave'></div>
 
 <div className='icons'>
-  <div className='fa'>
+  <div className='fat'>
 <FaFacebookF  style={{color:"#fff"}} className="iconf" />
 </div>
-<div  className='fa'>
+<div  className='fat'>
 <FaInstagram style={{color:"#fff"}} className="iconf"  />
 </div>
-<div className='fa'>
+<div className='fat'>
 <FaLinkedinIn style={{color:"#fff"}} className="iconf"  />
 </div>
-<div className='fa'>
+<div className='fat'>
 <FaGithub style={{color:"#fff"}} className="iconf"/>
 </div>
 </div>
